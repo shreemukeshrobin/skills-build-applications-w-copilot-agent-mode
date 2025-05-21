@@ -1,0 +1,101 @@
+.deals-dashboard {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Allow charts to wrap on smaller screens */
+}
+
+.chart-wrapper {
+    width: 45%; /* Adjust as needed, consider margins/padding */
+    min-width: 300px; /* Minimum width for smaller screens */
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px; /* Spacing between charts if they wrap */
+}
+
+.deals-dashboard h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.filter-controls {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-controls label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.deals-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deals-section h2 {
+    color: #34495e;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.deals-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.deal-item {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.deal-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.deal-item h3 {
+    margin-top: 0;
+    color: #2980b9;
+}
+
+.deal-item p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.deal-item p strong {
+    color: #7f8c8d;
+}
+
+.status-active {
+    border-left: 5px solid #2ecc71; /* Green */
+}
+
+.status-inactive {
+    border-left: 5px solid #f39c12; /* Orange */
+}
+
+.status-archived {
+    border-left: 5px solid #95a5a6; /* Grey */
+}
